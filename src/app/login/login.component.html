@@ -1,0 +1,37 @@
+<div class="container ">
+    <div class="row">
+        <form class=" card card-body border" (ngSubmit)="loginUser()" >
+            <div class="col-md-6 offset md-3">
+                <h2 class="text-center text-dark mt-5">LOGIN</h2>
+            </div>
+            <div class="text-center">
+                <img src="https://www.kindpng.com/picc/m/235-2350682_new-svg-image-small-user-login-icon-hd.png" class="img-fluid profile-image-pic img-thumbnail rounded-circle my-3"
+                  width="200px" alt="profile">
+              </div>
+            
+            
+            <br>
+            <div class="text-center">
+                
+                <input type="text" class="form-control" placeholder="Email" name="umail"[(ngModel)]='user.umail'>
+                
+            </div>
+            <br>
+            <div class="text-center">
+                
+                <input type="password" class="form-control" placeholder="Password"  name="password"[(ngModel)]='user.password' >
+            <div>
+                
+            </div>
+        </div>
+            <br>
+            <br>
+            
+                
+                <button  type="button" class="btn  px-5 mb-5 w-100" style="background-color: black;color: aliceblue;">Login</button>
+                <br>
+                
+        </form>
+        
+    </div>
+  </div>

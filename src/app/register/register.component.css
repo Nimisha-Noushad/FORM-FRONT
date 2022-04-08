@@ -1,0 +1,44 @@
+.card {
+    height: 550px;
+    width:400px;
+    margin-top: 70px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+/* form {
+    display: block;
+    margin-top: 0em;
+} */
+
+form {
+    
+    margin: 0 auto; 
+    width:400px;
+    
+    display: block;
+    padding: 1.5%;
+    text-align: center;   
+    display: flex;   
+    position: relative;
+}
+
+input {
+    width: 375px;
+    height: 25px;
+   }
+   
+.form-control.ng-touched.ng-invalid {
+    border:1px solid red;
+   }
+   .form-control.ng-touched.ng-valid {
+    border:1px solid green;
+   }
